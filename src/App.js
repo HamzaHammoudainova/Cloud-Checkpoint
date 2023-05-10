@@ -10,14 +10,15 @@ function App() {
     lng: -122.08427,
   }
   return (
-    <div className="App">
-      <header className="App-header">
+    <div>
+      <header >
         <p>
           hello to my app
         </p>
         </header>
-        <Contact/>
         <Map/>
+        <Contact/>
+       
     </div>
   );
 }
